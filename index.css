@@ -1,0 +1,89 @@
+css*{
+    margin: 0px; 
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ img{
+    margin-top: 100px;
+    
+    height: 500px;
+    width: 50%;
+    float:right;
+}
+
+.containeer .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: lightgray;
+    height: 100px;
+    width: 100%;
+    
+    margin-bottom: 30px;
+
+
+} 
+.containeer .header ul{
+    list-style: none;
+
+}
+.containeer .header ul li{
+    display: inline-block;
+    margin: 10px;
+    font-size: large;
+}
+.containeer .header ul li h3{
+    padding: 10px  30px 10px 30px;
+    margin: 0px 100px 0px 100px;
+    color: green;
+    font-size: 35px;
+    text-transform: lowercase;
+}
+.containeer .header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.containeer .content{
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    padding: 20px;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.containeer .content h2{
+    margin-bottom: 8px;
+    font-size: 30px;
+
+}
+.content .para{
+    margin-top: 18px;
+}
+.content  .links{
+    display: block;
+    margin-top: 50px;
+
+}
+.content  .links a{
+    
+    text-decoration: none;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(86, 165, 86);
+}
+#logo{
+    position:fixed;
+    top:0;
+    left:0;
+    padding: 20px ;
+    }
